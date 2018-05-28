@@ -3,10 +3,13 @@
 	border: 4px;
 	font-family: 'Pacifico', cursive;
 	text-align: center;
+	color: black;
+	background-color: white;
+	
 }
 
 .paper {
-	background-color: #ffe8db;
+	
 	max-width: 75%;
 	margin-left: 12.5%;
 	margin-top: 2.5%;
@@ -16,12 +19,13 @@
 }
 
 body {
-	background-image: url("back.jpg");
+	background-image: url("img1.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .card {
-	
+	opacity: 0.9;
 }
 
 .icon {
@@ -37,5 +41,9 @@ body {
 
 .card-body {
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
+}
+
+.text-bottom {
+	vertical-align: bottom;
 }
