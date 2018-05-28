@@ -1,0 +1,41 @@
+.head {
+	max-height: 100px;
+	border: 4px;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.paper {
+	background-color: #ffe8db;
+	max-width: 75%;
+	margin-left: 12.5%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	min-height: 100%;
+	padding: 30px;
+}
+
+body {
+	background-image: url("back.jpg");
+	background-size: cover;
+}
+
+.card {
+	
+}
+
+.icon {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.photo {
+	max-height: 100%;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.card-body {
+	text-align: center;
+	padding: 10px;
+}
